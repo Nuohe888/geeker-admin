@@ -1,0 +1,19 @@
+.el-main {
+  box-sizing: border-box;
+  padding: 10px 12px;
+  overflow-x: hidden;
+  background-color: var(--el-bg-color-page);
+
+  // 移动端优化
+  @media screen and (width <= 768px) {
+    padding: 8px; // 减少移动端内边距
+  }
+
+  @media screen and (width <= 480px) {
+    padding: 6px; // 小屏手机进一步减少内边距
+  }
+}
+.el-footer {
+  height: auto;
+  padding: 0;
+}
