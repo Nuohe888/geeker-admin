@@ -44,7 +44,6 @@ const username = computed(() => userStore.userInfo.nickName || userStore.userInf
 
   // 移动端优化
   @media screen and (width <= 768px) {
-    padding-right: 15px;
     .header-icon {
       & > * {
         margin-left: 15px;
@@ -59,8 +58,8 @@ const username = computed(() => userStore.userInfo.nickName || userStore.userInf
   @media screen and (width <= 480px) {
     padding-right: 8px;
     .header-icon {
+      margin-right: 10px;
       & > * {
-        margin-right: 10px;
         margin-left: 10px;
       }
     }

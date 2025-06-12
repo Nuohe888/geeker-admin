@@ -4,7 +4,7 @@
     <el-aside>
       <div class="aside-box" :style="{ width: isCollapse ? '65px' : '210px' }">
         <div class="logo flx-center">
-          <span class="logo-text">{{ isCollapse ? "G" : title }}</span>
+          <span v-show="!isCollapse" class="logo-text">{{ title }}</span>
         </div>
         <el-scrollbar>
           <el-menu

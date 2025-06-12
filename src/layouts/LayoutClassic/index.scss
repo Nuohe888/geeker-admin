@@ -97,8 +97,8 @@
     :deep(.el-header) {
       .header-lf {
         .logo {
-          width: 50px;
-          margin: 0;
+          width: 0px;
+          margin-left: 10px;
           .logo-text {
             display: none;
             font-size: 16px;
